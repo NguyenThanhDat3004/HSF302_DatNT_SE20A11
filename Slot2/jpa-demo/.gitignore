@@ -1,0 +1,54 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+gen/
+
+# Eclipse
+.settings/
+bin/
+tmp/
+.metadata/
+.classpath
+.project
+.factorypath
+.springBeans
+.sts4-cache
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Local configuration
+application-local.properties
+.env
+.env.local
+
+# Testing
+/test-output/
+/target/test-classes/
